@@ -1,0 +1,106 @@
+.navbar-brand {
+    height: 10vh;
+    width: 20%;
+    background: url("https://s3-alpha-sig.figma.com/img/153c/f988/785cdcec05510cbdc9cb1b82a17b77fc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZqXLlFiQ6K3JmO3TuqC3WdYiULGQCWjfe6lYU1YViVmG3-NLC28Fmb-hrDpxN3a9wk2Ifq~MRXiGkrKl5eC8NQhFo8~kqrWXEen4ohgfZKEdJkktgUBJSIMUch1PuDtWKvfYoZmjSNaUhmMvtK7UIBAaLkWp~RstnN0dN1~Bw-~N3CuKjr-aEA6vWGZwxJQKXrmiIPLbbLkbYLl5rLXwO7szi7i4eHZJCFlXf5a1~9rub1zt55fyAXFOUcNUAHCJqvfQ33VYPxu-6X0Ob2Z6OgN3S9V-k3VA6xJyuklMqB7d1ID1CHREKo8uC274gM~mcF24HJGj9S-QNVNNjsLfZw__");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+.navbar {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Adjust the shadow color and size as needed */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+.searchBar {
+    height: 6.9vh;
+    width: 20%;
+    margin-top: 0.4%;
+    background-color: #8064a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -6%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.navbar-toggler {
+    border-color: transparent; /* Remove the border color */
+    outline: none; /* Remove the outline */
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; /* Remove the box shadow on focus */
+}
+
+/* Custom styles for dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 4vw;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 13vw;
+    z-index: 1;
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 4.9vh;
+  }
+  
+  .dropContent{
+    margin-left: 6px;
+    color: #6D747A;
+  }
+
+  .bookmark{
+    color: #8064a2;
+    margin-left: 2.8vw ;
+  }
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-content {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Adjust the width as needed */
+  }
+
+  .bookmark {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+.methods>a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #8064a2;
+  margin-left: 2vw;
+}

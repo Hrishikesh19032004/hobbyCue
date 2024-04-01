@@ -1,0 +1,23 @@
+.cards{
+    width:550px;
+    height: 297px;
+    
+    margin-left: 4vw;
+}
+.contain{
+    width: 100%;
+    height: 818px;
+    
+}
+.google,.facebook{
+    width: 34vw;
+    height: 5.8vh;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #8064a2;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 4vw;
+    background-color: white;
+    color: #8064a2;
+}
